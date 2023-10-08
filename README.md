@@ -5,7 +5,7 @@
 \*Entre no php.ini, vá ao final do arquivo e insira 3 linhas de configuração: zend_extension = xdebug <br>
 xdebug.cli_color = 2 <br>
 xdebug.mode = coverage <br>
-/* É necessário ter a extensão ds instalada. Link para fazer o download: https://pecl.php.net/package/ds/1.4.0/windows. Após o download é necessário habilitar a mesma no php.ini atráves da linha extension=ds
+\* É necessário ter a extensão ds instalada. Link para fazer o download: https://pecl.php.net/package/ds/1.4.0/windows. Após o download é necessário habilitar a mesma no php.ini atráves da linha extension=ds
 
 1. Abra o Terminal na Pasta do Projeto;
 2. Instale as dependências necessárias: `composer install`;
